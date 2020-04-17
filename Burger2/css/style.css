@@ -14,7 +14,7 @@ body a {
 html, body{
 	font-family: 'Open Sans', sans-serif;
 	font-size: 100%;
-	background: #ffffff;
+	background: #B22222;
 }
 .menu {
   display: block;
@@ -144,7 +144,7 @@ span.menu{
     margin-top: 12em;
 }
 .header-section{
-  background: url(../images/banner.jpg) no-repeat 0px 0px;
+  background: url(../images/banner.jpg) no-repeat 0px 0px;/*this was a bg */
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -243,7 +243,7 @@ span.menu{
     padding: 6em 0;
 }
 .welcome-left h2{
-    color: #B1A992;
+    color: #fff;
     font-size: 4em;
     margin: 0;
     font-family: 'Philosopher', sans-serif;
@@ -267,13 +267,13 @@ span.menu{
 }
 /*-- about-left --*/
 .about-left{
-    background: url(../images/6.jpg) no-repeat 0px -65px;
+    background: url(../images/about-us.jpg) no-repeat 0px -100px;
     background-size: cover;
-    min-height: 444px;
+    min-height: 500px;
 }
 .about-right{
     padding: 5em 12em 5em 5em;
-    background: #A4C95E;
+    background:  #B22222;
 }
 .about-right h3,.services-info h3,.gallery-info h3,.testimonials-info h3,.news-info h3,.contact-info h3{
 	color:#FFF;
@@ -293,7 +293,7 @@ span.menu{
 }
 .services-info h3{
     text-align: center;
-    color: #B1A992;
+    color: #fff; /*--<изменила--*/
 }
 .services-top-grids{
     margin-top: 5em;
@@ -305,7 +305,7 @@ span.menu{
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    background: #fff;
+    background: #000;
     margin: 0 auto;
     text-align: center;
     position: relative;
@@ -378,13 +378,13 @@ span.menu{
 /*-- gallery --*/
 .gallery{
 	padding:5em 0;
-	background:#A4C95E;
+	background: #B22222;
 }
 .gallery-info h3{
     text-align: center;
 }
 .gallery-info h2{
-	color: #5BD982;
+	color: #000;
 }
 .gallery-grids-top {
     margin: 4em 0 0 0;
@@ -459,7 +459,7 @@ span.menu{
 }
 .testimonials-info h3{
     text-align: center;
-    color: #B1A992;
+    color: #fff;
 }
 .testimonials-grid{
 	text-align: center;
@@ -762,7 +762,7 @@ ul.social-slide li i.mac{
   text-align: center;
 }
 .contact-info h3 {
-    color: #B1A992;
+    color: #fff;
 }
 .contact-grids {
     margin: 4em 0 0 0;
